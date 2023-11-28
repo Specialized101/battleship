@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watch",
     "server": "webpack serve --open",
     "build": "webpack --config webpack.config.js",
     "deploy": "git substree push --prefix dist origin gh-pages"
