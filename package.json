@@ -7,7 +7,7 @@
     "test": "jest --watch",
     "server": "webpack serve --open",
     "build": "webpack --config webpack.config.js",
-    "deploy": "git substree push --prefix dist origin gh-pages"
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
